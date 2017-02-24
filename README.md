@@ -13,14 +13,14 @@ The project is WindowsDX as is my game that I've encountered this behavior on.
 
 
 
-##### Symptoms
+#### Symptoms
 
 ![results](https://github.com/UnterrainerInformatik/MonoGame_fonts_black_borders/blob/master/MG3.6.0_pipeline.png)
 
 As you can see there are black borders around most of the glyphs.
 Seems to depend on the SamplerState AND the size of the font that is drawn.
 
-###### Observations
+##### Observations
 
 The borders are only visible when:
 
@@ -31,7 +31,7 @@ The borders are only visible when:
   - It doesn't happen when the SamplerState is ```LinearClamp``` or ```PointClamp``` and the scale is ```new Vector2(1, 1)```.
   - It never happens when the scale is set so something smaller than 1f.
 
-##### Seems to be the pipeline
+#### Seems to be the pipeline
 
 I re-installed MG 3.5.1.1679 so the pipeline that's used during build is of that version and, lo and behold, it works again.
 
