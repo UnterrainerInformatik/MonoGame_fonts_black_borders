@@ -34,7 +34,6 @@ namespace Fonts_black_borders
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
             foreach (var f in fonts)
             {
                 Fonts.Add(f, Content.Load<SpriteFont>(f));
