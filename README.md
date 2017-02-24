@@ -15,7 +15,7 @@ The project is WindowsDX as is my game that I've encountered this behavior on.
 
 ##### Symptoms
 
-![results](https://github.com/UnterrainerInformatik/MonoGame_fonts_black_borders/blob/master/results/MG3.6.0_pipeline.png)
+![results](https://github.com/UnterrainerInformatik/MonoGame_fonts_black_borders/blob/master/MG3.6.0_pipeline.png)
 
 As you can see there are black borders around most of the glyphs.
 Seems to depend on the SamplerState AND the size of the font that is drawn.
@@ -35,6 +35,6 @@ The borders are only visible when:
 
 I re-installed MG 3.5.1.1679 so the pipeline that's used during build is of that version and, lo and behold, it works again.
 
-![results](https://github.com/UnterrainerInformatik/MonoGame_fonts_black_borders/blob/master/results/MG3.5.1_pipeline.png)
+![results](https://github.com/UnterrainerInformatik/MonoGame_fonts_black_borders/blob/master/MG3.5.1_pipeline.png)
 
 
